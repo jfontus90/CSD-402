@@ -1,5 +1,6 @@
 public class AverageTest {
 
+    // short array average
     public static short average(short[] array) {
         int sum = 0;
         for (short num : array) {
@@ -8,6 +9,7 @@ public class AverageTest {
         return (short)(sum / array.length);
     }
 
+    // int array average
     public static int average(int[] array) {
         int sum = 0;
         for (int num : array) {
@@ -16,6 +18,7 @@ public class AverageTest {
         return sum / array.length;
     }
 
+    // long array average
     public static long average(long[] array) {
         long sum = 0;
         for (long num : array) {
@@ -24,6 +27,7 @@ public class AverageTest {
         return sum / array.length;
     }
 
+    // double array average
     public static double average(double[] array) {
         double sum = 0;
         for (double num : array) {
